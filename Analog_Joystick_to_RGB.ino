@@ -130,7 +130,7 @@ void loop() {
    blueValue = blueValue*fixedMagnitude + 127*(1-fixedMagnitude);
    
 
-/* Serial Monitor - use for outputting values for debugging
+/* Un-comment and use Serial Monitor to output values for debugging
   Serial.print("Switch:  ");
   Serial.println(digitalRead(SW_pin));
   Serial.print("X-axis: ");
@@ -139,9 +139,9 @@ void loop() {
   Serial.println(Y_pos);
   Serial.print("Angle: ");
   Serial.println(angle);
-  Serial.print("Hue: ");
+  Serial.print("Hue Value: ");
   Serial.println(hueVal);
-  Serial.print("Magnitude: ");
+  Serial.print("Raw Magnitude: ");
   Serial.println(magnitude);
   Serial.print("Fixed Magnitude: ");
   Serial.println(fixedMagnitude);
